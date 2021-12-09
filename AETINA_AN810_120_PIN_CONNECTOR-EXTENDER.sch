@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 611757E4
+P 2700 6750
+F 0 "H1" H 2800 6796 50  0000 L CNN
+F 1 "MountingHole" H 2800 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2700 6750 50  0001 C CNN
+F 3 "~" H 2700 6750 50  0001 C CNN
+	1    2700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61176236
+P 4100 6750
+F 0 "H2" H 4200 6796 50  0000 L CNN
+F 1 "MountingHole" H 4200 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4100 6750 50  0001 C CNN
+F 3 "~" H 4100 6750 50  0001 C CNN
+	1    4100 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L QTH-060-01-X-D-A:QTH-060-01-X-D-A J1
+U 1 1 61B2B6C8
+P 3025 3100
+F 0 "J1" H 3025 5072 50  0000 C CNN
+F 1 "QTH-060-01-X-D-A" H 3025 4981 50  0000 C CNN
+F 2 "footprints:SAMTEC_QTH-060-01-X-D-A" H 3025 3100 50  0001 L BNN
+F 3 "" H 3025 3100 50  0001 L BNN
+F 4 "L" H 3025 3100 50  0001 L BNN "PARTREV"
+F 5 "4.347mm" H 3025 3100 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Samtec" H 3025 3100 50  0001 L BNN "MANUFACTURER"
+F 7 "Manufacturer Recommendations" H 3025 3100 50  0001 L BNN "STANDARD"
+	1    3025 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L QSH-060-01-X-D-A:QSH-060-01-X-D-A J2
+U 1 1 61B2FF73
+P 7000 3000
+F 0 "J2" H 7000 4767 50  0000 C CNN
+F 1 "QSH-060-01-X-D-A" H 7000 4676 50  0000 C CNN
+F 2 "footprints:SAMTEC_QSH-060-01-X-D-A" H 7000 3000 50  0001 L BNN
+F 3 "" H 7000 3000 50  0001 L BNN
+F 4 "M" H 7000 3000 50  0001 L BNN "PARTREV"
+F 5 "3.327 mm" H 7000 3000 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Samtec" H 7000 3000 50  0001 L BNN "MANUFACTURER"
+F 7 "Manufacturer Recommendations" H 7000 3000 50  0001 L BNN "STANDARD"
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

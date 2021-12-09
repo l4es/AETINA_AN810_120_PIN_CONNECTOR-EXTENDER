@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name QTH-060-01-X-D-A)(type Legacy)(uri ${KIPRJMOD}/lib_sch/QTH-060-01-X-D-A.lib)(options "")(descr ""))
+  (lib (name QSH-060-01-X-D-A)(type Legacy)(uri ${KIPRJMOD}/lib_sch/QSH-060-01-X-D-A.lib)(options "")(descr ""))
+)
